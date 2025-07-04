@@ -1,0 +1,598 @@
+/* Ant Design Vue 自定义样式 */
+
+/* 全局样式覆盖 */
+.ant-layout {
+  background: var(--ant-body-background);
+  color: var(--ant-text-color);
+}
+
+.ant-layout-header {
+  background: var(--ant-component-background);
+  border-bottom: 1px solid var(--ant-border-color-split);
+  padding: 0 24px;
+}
+
+.ant-layout-sider {
+  background: var(--ant-component-background);
+  border-right: 1px solid var(--ant-border-color-split);
+}
+
+.ant-layout-content {
+  background: var(--ant-body-background);
+  padding: 24px;
+}
+
+.ant-layout-footer {
+  background: var(--ant-component-background);
+  border-top: 1px solid var(--ant-border-color-split);
+  text-align: center;
+  color: var(--ant-text-color-secondary);
+}
+
+/* 按钮样式优化 */
+.ant-btn {
+  border-radius: 6px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ant-btn-primary {
+  background: var(--ant-primary-color);
+  border-color: var(--ant-primary-color);
+}
+
+.ant-btn-primary:hover {
+  background: var(--ant-primary-5);
+  border-color: var(--ant-primary-5);
+}
+
+/* 卡片样式优化 */
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  background: var(--ant-component-background);
+  border: 1px solid var(--ant-border-color-split);
+}
+
+.ant-card-head {
+  border-bottom: 1px solid var(--ant-border-color-split);
+  background: var(--ant-component-background);
+}
+
+.ant-card-body {
+  background: var(--ant-component-background);
+}
+
+/* 表单样式优化 */
+.ant-form-item-label > label {
+  color: var(--ant-text-color);
+  font-weight: 500;
+}
+
+.ant-input {
+  border-radius: 6px;
+  border: 1px solid var(--ant-border-color-base);
+  background: var(--ant-component-background);
+  color: var(--ant-text-color);
+  transition: all 0.3s;
+}
+
+.ant-input:focus {
+  border-color: var(--ant-primary-color);
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.ant-input-password {
+  border-radius: 6px;
+}
+
+.ant-select {
+  border-radius: 6px;
+}
+
+.ant-select-selector {
+  border-radius: 6px !important;
+  border: 1px solid var(--ant-border-color-base) !important;
+  background: var(--ant-component-background) !important;
+}
+
+.ant-select-focused .ant-select-selector {
+  border-color: var(--ant-primary-color) !important;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+}
+
+/* 表格样式优化 */
+.ant-table {
+  background: var(--ant-component-background);
+  border-radius: 8px;
+}
+
+.ant-table-thead > tr > th {
+  background: var(--ant-background-color-light);
+  color: var(--ant-text-color);
+  border-bottom: 1px solid var(--ant-border-color-split);
+  font-weight: 600;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid var(--ant-border-color-split);
+  color: var(--ant-text-color);
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: var(--ant-background-color-light);
+}
+
+/* 菜单样式优化 */
+.ant-menu {
+  background: var(--ant-component-background);
+  border: none;
+}
+
+.ant-menu-item {
+  color: var(--ant-text-color);
+  border-radius: 6px;
+  margin: 4px 0;
+}
+
+.ant-menu-item:hover {
+  background: var(--ant-primary-1);
+  color: var(--ant-primary-color);
+}
+
+.ant-menu-item-selected {
+  background: var(--ant-primary-1);
+  color: var(--ant-primary-color);
+}
+
+.ant-menu-submenu-title {
+  color: var(--ant-text-color);
+  border-radius: 6px;
+  margin: 4px 0;
+}
+
+.ant-menu-submenu-title:hover {
+  background: var(--ant-primary-1);
+  color: var(--ant-primary-color);
+}
+
+/* 标签页样式优化 */
+.ant-tabs {
+  color: var(--ant-text-color);
+}
+
+.ant-tabs-tab {
+  color: var(--ant-text-color-secondary);
+  border-radius: 6px 6px 0 0;
+  transition: all 0.3s;
+}
+
+.ant-tabs-tab:hover {
+  color: var(--ant-primary-color);
+  background: var(--ant-primary-1);
+}
+
+.ant-tabs-tab-active {
+  color: var(--ant-primary-color);
+  background: var(--ant-component-background);
+}
+
+.ant-tabs-content-holder {
+  background: var(--ant-component-background);
+  border-radius: 0 0 8px 8px;
+}
+
+/* 模态框样式优化 */
+.ant-modal {
+  border-radius: 8px;
+}
+
+.ant-modal-content {
+  border-radius: 8px;
+  background: var(--ant-component-background);
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid var(--ant-border-color-split);
+  background: var(--ant-component-background);
+  border-radius: 8px 8px 0 0;
+}
+
+.ant-modal-title {
+  color: var(--ant-text-color);
+  font-weight: 600;
+}
+
+.ant-modal-body {
+  background: var(--ant-component-background);
+  color: var(--ant-text-color);
+}
+
+.ant-modal-footer {
+  border-top: 1px solid var(--ant-border-color-split);
+  background: var(--ant-component-background);
+  border-radius: 0 0 8px 8px;
+}
+
+/* 抽屉样式优化 */
+.ant-drawer {
+  background: var(--ant-component-background);
+}
+
+.ant-drawer-header {
+  border-bottom: 1px solid var(--ant-border-color-split);
+  background: var(--ant-component-background);
+}
+
+.ant-drawer-title {
+  color: var(--ant-text-color);
+  font-weight: 600;
+}
+
+.ant-drawer-body {
+  background: var(--ant-component-background);
+  color: var(--ant-text-color);
+}
+
+/* 下拉菜单样式优化 */
+.ant-dropdown {
+  border-radius: 8px;
+  box-shadow: var(--ant-shadow-2);
+}
+
+.ant-dropdown-menu {
+  border-radius: 8px;
+  background: var(--ant-component-background);
+  border: 1px solid var(--ant-border-color-split);
+}
+
+.ant-dropdown-menu-item {
+  color: var(--ant-text-color);
+  transition: all 0.3s;
+}
+
+.ant-dropdown-menu-item:hover {
+  background: var(--ant-primary-1);
+  color: var(--ant-primary-color);
+}
+
+/* 消息提示样式优化 */
+.ant-message {
+  border-radius: 6px;
+  box-shadow: var(--ant-shadow-2);
+}
+
+.ant-message-success {
+  background: var(--ant-success-1);
+  border: 1px solid var(--ant-success-3);
+}
+
+.ant-message-error {
+  background: var(--ant-error-1);
+  border: 1px solid var(--ant-error-3);
+}
+
+.ant-message-warning {
+  background: var(--ant-warning-1);
+  border: 1px solid var(--ant-warning-3);
+}
+
+.ant-message-info {
+  background: var(--ant-info-1);
+  border: 1px solid var(--ant-info-3);
+}
+
+/* 通知样式优化 */
+.ant-notification {
+  border-radius: 8px;
+  box-shadow: var(--ant-shadow-2);
+}
+
+/* 面包屑样式优化 */
+.ant-breadcrumb {
+  color: var(--ant-text-color-secondary);
+}
+
+.ant-breadcrumb a {
+  color: var(--ant-text-color-secondary);
+  transition: all 0.3s;
+}
+
+.ant-breadcrumb a:hover {
+  color: var(--ant-primary-color);
+}
+
+/* 分页样式优化 */
+.ant-pagination {
+  color: var(--ant-text-color);
+}
+
+.ant-pagination-item {
+  background: var(--ant-component-background);
+  border: 1px solid var(--ant-border-color-base);
+  color: var(--ant-text-color);
+}
+
+.ant-pagination-item:hover {
+  border-color: var(--ant-primary-color);
+  color: var(--ant-primary-color);
+}
+
+.ant-pagination-item-active {
+  background: var(--ant-primary-color);
+  border-color: var(--ant-primary-color);
+  color: #fff;
+}
+
+/* 徽章样式优化 */
+.ant-badge-count {
+  background: var(--ant-error-color);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px var(--ant-component-background);
+}
+
+/* 头像样式优化 */
+.ant-avatar {
+  background: var(--ant-primary-color);
+  color: #fff;
+  border-radius: 6px;
+}
+
+/* 标签样式优化 */
+.ant-tag {
+  border-radius: 4px;
+  border: 1px solid var(--ant-border-color-base);
+  background: var(--ant-background-color-light);
+  color: var(--ant-text-color);
+}
+
+.ant-tag-blue {
+  background: var(--ant-primary-1);
+  border-color: var(--ant-primary-3);
+  color: var(--ant-primary-7);
+}
+
+.ant-tag-green {
+  background: var(--ant-success-1);
+  border-color: var(--ant-success-3);
+  color: var(--ant-success-7);
+}
+
+.ant-tag-red {
+  background: var(--ant-error-1);
+  border-color: var(--ant-error-3);
+  color: var(--ant-error-7);
+}
+
+.ant-tag-orange {
+  background: var(--ant-warning-1);
+  border-color: var(--ant-warning-3);
+  color: var(--ant-warning-7);
+}
+
+/* 进度条样式优化 */
+.ant-progress-line {
+  border-radius: 100px;
+}
+
+.ant-progress-bg {
+  border-radius: 100px;
+  background: var(--ant-primary-color);
+}
+
+/* 滑块样式优化 */
+.ant-slider-track {
+  background: var(--ant-primary-color);
+}
+
+.ant-slider-handle {
+  border: 2px solid var(--ant-primary-color);
+  background: var(--ant-component-background);
+}
+
+.ant-slider-handle:hover {
+  border-color: var(--ant-primary-5);
+}
+
+/* 开关样式优化 */
+.ant-switch {
+  background: var(--ant-border-color-base);
+  border-radius: 100px;
+}
+
+.ant-switch-checked {
+  background: var(--ant-primary-color);
+}
+
+/* 评分样式优化 */
+.ant-rate-star {
+  color: var(--ant-border-color-base);
+}
+
+.ant-rate-star-full {
+  color: var(--ant-warning-color);
+}
+
+.ant-rate-star-half {
+  color: var(--ant-warning-color);
+}
+
+/* 步骤条样式优化 */
+.ant-steps-item-process .ant-steps-item-icon {
+  background: var(--ant-primary-color);
+  border-color: var(--ant-primary-color);
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+  background: var(--ant-success-color);
+  border-color: var(--ant-success-color);
+}
+
+/* 时间线样式优化 */
+.ant-timeline-item-head {
+  background: var(--ant-component-background);
+  border: 2px solid var(--ant-primary-color);
+}
+
+.ant-timeline-item-content {
+  color: var(--ant-text-color);
+}
+
+/* 树形控件样式优化 */
+.ant-tree {
+  background: var(--ant-component-background);
+  color: var(--ant-text-color);
+}
+
+.ant-tree-treenode {
+  color: var(--ant-text-color);
+}
+
+.ant-tree-treenode:hover {
+  background: var(--ant-primary-1);
+}
+
+.ant-tree-node-selected {
+  background: var(--ant-primary-1);
+  color: var(--ant-primary-color);
+}
+
+/* 传输框样式优化 */
+.ant-transfer {
+  color: var(--ant-text-color);
+}
+
+.ant-transfer-list {
+  background: var(--ant-component-background);
+  border: 1px solid var(--ant-border-color-base);
+  border-radius: 8px;
+}
+
+.ant-transfer-list-header {
+  background: var(--ant-background-color-light);
+  border-bottom: 1px solid var(--ant-border-color-split);
+  color: var(--ant-text-color);
+}
+
+/* 级联选择样式优化 */
+.ant-cascader-picker {
+  background: var(--ant-component-background);
+}
+
+.ant-cascader-menu {
+  background: var(--ant-component-background);
+  border-right: 1px solid var(--ant-border-color-split);
+}
+
+.ant-cascader-menu-item {
+  color: var(--ant-text-color);
+}
+
+.ant-cascader-menu-item:hover {
+  background: var(--ant-primary-1);
+}
+
+/* 日期选择器样式优化 */
+.ant-picker {
+  background: var(--ant-component-background);
+  border: 1px solid var(--ant-border-color-base);
+  border-radius: 6px;
+  color: var(--ant-text-color);
+}
+
+.ant-picker:hover {
+  border-color: var(--ant-primary-color);
+}
+
+.ant-picker-focused {
+  border-color: var(--ant-primary-color);
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.ant-picker-dropdown {
+  border-radius: 8px;
+  box-shadow: var(--ant-shadow-2);
+}
+
+.ant-picker-panel {
+  background: var(--ant-component-background);
+  border: 1px solid var(--ant-border-color-split);
+  border-radius: 8px;
+}
+
+.ant-picker-header {
+  color: var(--ant-text-color);
+  border-bottom: 1px solid var(--ant-border-color-split);
+}
+
+.ant-picker-body {
+  color: var(--ant-text-color);
+}
+
+.ant-picker-cell {
+  color: var(--ant-text-color);
+}
+
+.ant-picker-cell:hover {
+  background: var(--ant-primary-1);
+}
+
+.ant-picker-cell-selected {
+  background: var(--ant-primary-color);
+  color: #fff;
+}
+
+.ant-picker-cell-today {
+  border: 1px solid var(--ant-primary-color);
+  color: var(--ant-primary-color);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .ant-layout-content {
+    padding: 16px;
+  }
+
+  .ant-table {
+    font-size: 14px;
+  }
+
+  .ant-card {
+    margin: 8px 0;
+  }
+
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+
+  .ant-btn {
+    height: 36px;
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ant-layout-content {
+    padding: 12px;
+  }
+
+  .ant-card {
+    margin: 6px 0;
+  }
+
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+
+  .ant-btn {
+    height: 32px;
+    padding: 0 8px;
+    font-size: 14px;
+  }
+}

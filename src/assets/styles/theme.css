@@ -1,0 +1,307 @@
+/* Ant Design Vue 主题配置 */
+:root {
+  /* 亮色主题 - 现代化配色方案 */
+  --ant-primary-color: #1890ff;
+  --ant-primary-1: #e6f7ff;
+  --ant-primary-2: #bae7ff;
+  --ant-primary-3: #91d5ff;
+  --ant-primary-4: #69c0ff;
+  --ant-primary-5: #40a9ff;
+  --ant-primary-6: #1890ff;
+  --ant-primary-7: #096dd9;
+  --ant-primary-8: #0050b3;
+  --ant-primary-9: #003a8c;
+  --ant-primary-10: #002766;
+
+  /* 成功色 */
+  --ant-success-color: #52c41a;
+  --ant-success-1: #f6ffed;
+  --ant-success-2: #d9f7be;
+  --ant-success-3: #b7eb8f;
+  --ant-success-4: #95de64;
+  --ant-success-5: #73d13d;
+  --ant-success-6: #52c41a;
+  --ant-success-7: #389e0d;
+  --ant-success-8: #237804;
+  --ant-success-9: #135200;
+  --ant-success-10: #092b00;
+
+  /* 警告色 */
+  --ant-warning-color: #faad14;
+  --ant-warning-1: #fffbe6;
+  --ant-warning-2: #fff1b8;
+  --ant-warning-3: #ffe58f;
+  --ant-warning-4: #ffd666;
+  --ant-warning-5: #ffc53d;
+  --ant-warning-6: #faad14;
+  --ant-warning-7: #d48806;
+  --ant-warning-8: #ad6800;
+  --ant-warning-9: #874d00;
+  --ant-warning-10: #613400;
+
+  /* 错误色 */
+  --ant-error-color: #ff4d4f;
+  --ant-error-1: #fff2f0;
+  --ant-error-2: #ffccc7;
+  --ant-error-3: #ffa39e;
+  --ant-error-4: #ff7875;
+  --ant-error-5: #ff4d4f;
+  --ant-error-6: #f5222d;
+  --ant-error-7: #cf1322;
+  --ant-error-8: #a8071a;
+  --ant-error-9: #820014;
+  --ant-error-10: #5c0011;
+
+  /* 信息色 */
+  --ant-info-color: #1890ff;
+  --ant-info-1: #e6f7ff;
+  --ant-info-2: #bae7ff;
+  --ant-info-3: #91d5ff;
+  --ant-info-4: #69c0ff;
+  --ant-info-5: #40a9ff;
+  --ant-info-6: #1890ff;
+  --ant-info-7: #096dd9;
+  --ant-info-8: #0050b3;
+  --ant-info-9: #003a8c;
+  --ant-info-10: #002766;
+
+  /* 文本色 */
+  --ant-text-color: rgba(0, 0, 0, 0.88);
+  --ant-text-color-secondary: rgba(0, 0, 0, 0.65);
+  --ant-text-color-tertiary: rgba(0, 0, 0, 0.45);
+  --ant-text-color-quaternary: rgba(0, 0, 0, 0.25);
+
+  /* 背景色 */
+  --ant-component-background: #ffffff;
+  --ant-body-background: #f0f2f5;
+  --ant-background-color-light: #fafafa;
+  --ant-background-color-base: #f5f5f5;
+
+  /* 边框色 */
+  --ant-border-color-base: #d9d9d9;
+  --ant-border-color-split: #f0f0f0;
+  --ant-border-color-inverse: #ffffff;
+
+  /* 阴影 */
+  --ant-shadow-1-up:
+    0 -6px 16px 0 rgba(0, 0, 0, 0.08), 0 -3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 -9px 28px 8px rgba(0, 0, 0, 0.05);
+  --ant-shadow-1-down:
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  --ant-shadow-1-left:
+    -6px 0 16px 0 rgba(0, 0, 0, 0.08), -3px 0 6px -4px rgba(0, 0, 0, 0.12),
+    -9px 0 28px 8px rgba(0, 0, 0, 0.05);
+  --ant-shadow-1-right:
+    6px 0 16px 0 rgba(0, 0, 0, 0.08), 3px 0 6px -4px rgba(0, 0, 0, 0.12),
+    9px 0 28px 8px rgba(0, 0, 0, 0.05);
+  --ant-shadow-2:
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 暗色主题 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* 主色调 */
+    --ant-primary-color: #1668dc;
+    --ant-primary-1: #111a2c;
+    --ant-primary-2: #112545;
+    --ant-primary-3: #15325b;
+    --ant-primary-4: #1c4488;
+    --ant-primary-5: #1554ad;
+    --ant-primary-6: #1668dc;
+    --ant-primary-7: #3c89e8;
+    --ant-primary-8: #65a9f3;
+    --ant-primary-9: #8dc5f8;
+    --ant-primary-10: #b7dcfa;
+
+    /* 成功色 */
+    --ant-success-color: #49aa19;
+    --ant-success-1: #162312;
+    --ant-success-2: #1d3712;
+    --ant-success-3: #274916;
+    --ant-success-4: #306317;
+    --ant-success-5: #3c8618;
+    --ant-success-6: #49aa19;
+    --ant-success-7: #6abe39;
+    --ant-success-8: #8fd460;
+    --ant-success-9: #b2e58b;
+    --ant-success-10: #d5f2bb;
+
+    /* 警告色 */
+    --ant-warning-color: #d89614;
+    --ant-warning-1: #2b2111;
+    --ant-warning-2: #443111;
+    --ant-warning-3: #594214;
+    --ant-warning-4: #7c5914;
+    --ant-warning-5: #aa7714;
+    --ant-warning-6: #d89614;
+    --ant-warning-7: #e8b339;
+    --ant-warning-8: #f3cc62;
+    --ant-warning-9: #f8df8b;
+    --ant-warning-10: #faedb5;
+
+    /* 错误色 */
+    --ant-error-color: #dc4446;
+    --ant-error-1: #2c1618;
+    --ant-error-2: #442021;
+    --ant-error-3: #58191c;
+    --ant-error-4: #791a1f;
+    --ant-error-5: #a61d24;
+    --ant-error-6: #dc4446;
+    --ant-error-7: #e86e6b;
+    --ant-error-8: #f3908c;
+    --ant-error-9: #f8b5b2;
+    --ant-error-10: #fad4d3;
+
+    /* 信息色 */
+    --ant-info-color: #1668dc;
+    --ant-info-1: #111a2c;
+    --ant-info-2: #112545;
+    --ant-info-3: #15325b;
+    --ant-info-4: #1c4488;
+    --ant-info-5: #1554ad;
+    --ant-info-6: #1668dc;
+    --ant-info-7: #3c89e8;
+    --ant-info-8: #65a9f3;
+    --ant-info-9: #8dc5f8;
+    --ant-info-10: #b7dcfa;
+
+    /* 文本色 */
+    --ant-text-color: rgba(255, 255, 255, 0.88);
+    --ant-text-color-secondary: rgba(255, 255, 255, 0.65);
+    --ant-text-color-tertiary: rgba(255, 255, 255, 0.45);
+    --ant-text-color-quaternary: rgba(255, 255, 255, 0.25);
+
+    /* 背景色 */
+    --ant-component-background: #1f1f1f;
+    --ant-body-background: #000000;
+    --ant-background-color-light: #1a1a1a;
+    --ant-background-color-base: #141414;
+
+    /* 边框色 */
+    --ant-border-color-base: #424242;
+    --ant-border-color-split: #303030;
+    --ant-border-color-inverse: #177ddc;
+
+    /* 阴影 */
+    --ant-shadow-1-up:
+      0 -6px 16px 0 rgba(0, 0, 0, 0.32), 0 -3px 6px -4px rgba(0, 0, 0, 0.32),
+      0 -9px 28px 8px rgba(0, 0, 0, 0.2);
+    --ant-shadow-1-down:
+      0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 3px 6px -4px rgba(0, 0, 0, 0.32),
+      0 9px 28px 8px rgba(0, 0, 0, 0.2);
+    --ant-shadow-1-left:
+      -6px 0 16px 0 rgba(0, 0, 0, 0.32), -3px 0 6px -4px rgba(0, 0, 0, 0.32),
+      -9px 0 28px 8px rgba(0, 0, 0, 0.2);
+    --ant-shadow-1-right:
+      6px 0 16px 0 rgba(0, 0, 0, 0.32), 3px 0 6px -4px rgba(0, 0, 0, 0.32),
+      9px 0 28px 8px rgba(0, 0, 0, 0.2);
+    --ant-shadow-2:
+      0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 3px 6px -4px rgba(0, 0, 0, 0.32),
+      0 9px 28px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* 暗色主题样式类 */
+.dark {
+  /* 主色调 */
+  --ant-primary-color: #1668dc;
+  --ant-primary-1: #111a2c;
+  --ant-primary-2: #112545;
+  --ant-primary-3: #15325b;
+  --ant-primary-4: #1c4488;
+  --ant-primary-5: #1554ad;
+  --ant-primary-6: #1668dc;
+  --ant-primary-7: #3c89e8;
+  --ant-primary-8: #65a9f3;
+  --ant-primary-9: #8dc5f8;
+  --ant-primary-10: #b7dcfa;
+
+  /* 成功色 */
+  --ant-success-color: #49aa19;
+  --ant-success-1: #162312;
+  --ant-success-2: #1d3712;
+  --ant-success-3: #274916;
+  --ant-success-4: #306317;
+  --ant-success-5: #3c8618;
+  --ant-success-6: #49aa19;
+  --ant-success-7: #6abe39;
+  --ant-success-8: #8fd460;
+  --ant-success-9: #b2e58b;
+  --ant-success-10: #d5f2bb;
+
+  /* 警告色 */
+  --ant-warning-color: #d89614;
+  --ant-warning-1: #2b2111;
+  --ant-warning-2: #443111;
+  --ant-warning-3: #594214;
+  --ant-warning-4: #7c5914;
+  --ant-warning-5: #aa7714;
+  --ant-warning-6: #d89614;
+  --ant-warning-7: #e8b339;
+  --ant-warning-8: #f3cc62;
+  --ant-warning-9: #f8df8b;
+  --ant-warning-10: #faedb5;
+
+  /* 错误色 */
+  --ant-error-color: #dc4446;
+  --ant-error-1: #2c1618;
+  --ant-error-2: #442021;
+  --ant-error-3: #58191c;
+  --ant-error-4: #791a1f;
+  --ant-error-5: #a61d24;
+  --ant-error-6: #dc4446;
+  --ant-error-7: #e86e6b;
+  --ant-error-8: #f3908c;
+  --ant-error-9: #f8b5b2;
+  --ant-error-10: #fad4d3;
+
+  /* 信息色 */
+  --ant-info-color: #1668dc;
+  --ant-info-1: #111a2c;
+  --ant-info-2: #112545;
+  --ant-info-3: #15325b;
+  --ant-info-4: #1c4488;
+  --ant-info-5: #1554ad;
+  --ant-info-6: #1668dc;
+  --ant-info-7: #3c89e8;
+  --ant-info-8: #65a9f3;
+  --ant-info-9: #8dc5f8;
+  --ant-info-10: #b7dcfa;
+
+  /* 文本色 */
+  --ant-text-color: rgba(255, 255, 255, 0.88);
+  --ant-text-color-secondary: rgba(255, 255, 255, 0.65);
+  --ant-text-color-tertiary: rgba(255, 255, 255, 0.45);
+  --ant-text-color-quaternary: rgba(255, 255, 255, 0.25);
+
+  /* 背景色 */
+  --ant-component-background: #1f1f1f;
+  --ant-body-background: #000000;
+  --ant-background-color-light: #1a1a1a;
+  --ant-background-color-base: #141414;
+
+  /* 边框色 */
+  --ant-border-color-base: #424242;
+  --ant-border-color-split: #303030;
+  --ant-border-color-inverse: #177ddc;
+
+  /* 阴影 */
+  --ant-shadow-1-up:
+    0 -6px 16px 0 rgba(0, 0, 0, 0.32), 0 -3px 6px -4px rgba(0, 0, 0, 0.32),
+    0 -9px 28px 8px rgba(0, 0, 0, 0.2);
+  --ant-shadow-1-down:
+    0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 3px 6px -4px rgba(0, 0, 0, 0.32),
+    0 9px 28px 8px rgba(0, 0, 0, 0.2);
+  --ant-shadow-1-left:
+    -6px 0 16px 0 rgba(0, 0, 0, 0.32), -3px 0 6px -4px rgba(0, 0, 0, 0.32),
+    -9px 0 28px 8px rgba(0, 0, 0, 0.2);
+  --ant-shadow-1-right:
+    6px 0 16px 0 rgba(0, 0, 0, 0.32), 3px 0 6px -4px rgba(0, 0, 0, 0.32),
+    9px 0 28px 8px rgba(0, 0, 0, 0.2);
+  --ant-shadow-2:
+    0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 3px 6px -4px rgba(0, 0, 0, 0.32),
+    0 9px 28px 8px rgba(0, 0, 0, 0.2);
+}

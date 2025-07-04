@@ -84,3 +84,59 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* 全局链接样式 */
+a {
+  color: var(--ant-primary-color);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: var(--ant-primary-5);
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ant-background-color-base);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ant-border-color-base);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ant-text-color-quaternary);
+}
+
+/* 选择文本样式 */
+::selection {
+  background: var(--ant-primary-1);
+  color: var(--ant-primary-7);
+}
+
+/* 焦点样式 */
+:focus-visible {
+  outline: 2px solid var(--ant-primary-color);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* 禁用状态 */
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* 加载状态 */
+.loading {
+  pointer-events: none;
+  opacity: 0.6;
+}
