@@ -40,6 +40,7 @@ import { generatePermission } from '@/routes';
 function Navbar({ show }: { show: boolean }) {
   const t = useLocale();
   const { userInfo, userLoading } = useSelector((state: GlobalState) => state);
+  const settings = useSelector((state: GlobalState) => state.settings);
   const dispatch = useDispatch();
 
   const [_, setUserStatus] = useStorage('userStatus');
@@ -145,7 +146,7 @@ function Navbar({ show }: { show: boolean }) {
       <div className={styles.left}>
         <div className={styles.logo}>
           <Logo />
-          <div className={styles['logo-name']}>Arco Pro</div>
+          <div className={styles['logo-name']}>{settings.systemName}</div>
         </div>
       </div>
       <ul className={styles.right}>
