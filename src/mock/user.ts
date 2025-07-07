@@ -13,7 +13,7 @@ if (!isSSR) {
       Mock.mock(new RegExp('/api/user/userInfo'), () => {
         return Mock.mock({
           name: 'admin',
-          avatar: '@assets/avatar.png',
+          avatar: '/avatar.png',
           email: 'wangliqun@email.com',
           job: 'frontend',
           jobName: '前端开发工程师',
