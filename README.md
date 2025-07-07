@@ -1,7 +1,7 @@
 # Slavopolis Web Initializr
 
 <div align="center">
-  <img src="https://github.com/Slavopolis/slavopolis-web-initializr/blob/master/src/assets/logo.svg" alt="Slavopolis Logo" width="120" height="120">
+  <img src="./src/assets/logo.svg" alt="Slavopolis Logo" width="50" height="50">
   
   <h3>基于 Arco Design Pro + React 开发的前端模版项目</h3>
   
