@@ -27,7 +27,7 @@
     font-size: 20px;
     font-weight: 600;
     color: #fff;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 20%);
   }
 }
 
@@ -50,10 +50,10 @@
     bottom: 0;
     background: linear-gradient(
       135deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.05) 25%,
-      rgba(255, 255, 255, 0) 75%,
-      rgba(0, 0, 0, 0.1) 100%
+      rgba(255, 255, 255, 10%) 0%,
+      rgba(255, 255, 255, 5%) 25%,
+      rgba(255, 255, 255, 0%) 75%,
+      rgba(0, 0, 0, 10%) 100%
     );
     pointer-events: none;
     z-index: 1;
@@ -86,17 +86,17 @@
   font-weight: 600;
   font-size: 22px;
   line-height: 30px;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(255, 255, 255, 95%);
   margin-bottom: 12px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 10%);
 }
 
 .carousel-sub-title {
   font-size: 15px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 80%);
   margin-bottom: 30px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 10%);
 }
 
 .carousel-image {
@@ -104,7 +104,7 @@
   height: auto;
   max-height: 220px;
   object-fit: contain;
-  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 15%));
   transition: transform 0.3s ease;
 
   &:hover {
@@ -121,7 +121,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 60px;
-  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 10%);
 
   .content {
     width: 100%;
@@ -245,7 +245,7 @@
     &.active {
       background: #fff;
       color: #5d7cff;
-      box-shadow: 0 2px 8px rgba(93, 124, 255, 0.15);
+      box-shadow: 0 2px 8px rgba(93, 124, 255, 15%);
       transform: scale(1.02);
     }
   }
@@ -278,8 +278,8 @@
 
       &.arco-input-focus {
         border-color: #5d7cff;
-        box-shadow: 0 0 0 4px rgba(93, 124, 255, 0.1),
-          0 2px 8px rgba(93, 124, 255, 0.15);
+        box-shadow: 0 0 0 4px rgba(93, 124, 255, 10%),
+          0 2px 8px rgba(93, 124, 255, 15%);
         background: #fafbff;
       }
 
@@ -320,7 +320,7 @@
   &:hover {
     background: #4c6fff;
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(93, 124, 255, 0.4);
+    box-shadow: 0 4px 12px rgba(93, 124, 255, 40%);
   }
 
   &:active {
@@ -638,7 +638,7 @@
 
         &.arco-input-focus {
           border-color: #60a5fa;
-          box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
+          box-shadow: 0 0 0 3px rgba(96, 165, 250, 10%);
         }
 
         .arco-input {
